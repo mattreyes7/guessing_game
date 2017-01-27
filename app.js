@@ -50,8 +50,17 @@ var anotherAnswerFive =('Yes');
 // checks to see if user answer matches the above variables.
 // an appropriate alert will run based on answer.
 
-if ((answerFive === myAnswerFive) || (otherAnswerFive === anotherAnswerFive)) {
+if ((answerFive === myAnswerFive) || (answerFive !== myAnswerFive)) {
   alert('That\'s too bad. Would\'ve been pretty cool');
 } else {
   alert('Gas up my jet!');
+}
+
+var answerSix = prompt('Are you sleepy yet? Yes, No, Maybe.');
+var myAnswerSix = [ ['Yes'], ['No'], ['Maybe'] ];
+
+if (answerSix === myAnswerSix.indexOf(0)) {
+  alert('ZZZZZZ');
+} else {
+  alert('You should sleep anyway.')
 }

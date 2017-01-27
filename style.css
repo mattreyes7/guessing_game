@@ -6,21 +6,14 @@ Selector {
   } */
 
   /* By Element name */
-  body {
+  main {
     color: red;
     font-family: verdana;
     font-size: 16px;
-    font-style: bold;
+    font-style: normal;
   }
 
   h1 {
+    color: blue;
 
   }
-
-  /* By Class name */
-
-  .classOne {
-
-  }
-
-  /* By Id */
