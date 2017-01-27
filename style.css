@@ -8,9 +8,9 @@ Selector {
   /* By Element name */
   body {
     color: red;
-    font-family: helvetica;
+    font-family: verdana;
     font-size: 16px;
-    font-style: italic;
+    font-style: bold;
   }
 
   h1 {
