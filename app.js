@@ -65,7 +65,7 @@
 // // As a developer, I want to add a seventh question to my guessing game that takes numeric input, and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
 // //
 
-// this while loop counts the number of guesses up to 4 and stops when the user guesses correctly.
+// this while loop counts the number of guesses up to 4 moves onto the next question when tries expire and stops when the user guesses correctly. 
 
 var myAnswerSeven = 7;
 var counter = 1;
