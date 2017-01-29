@@ -19,7 +19,7 @@ var answerTwo = prompt('Do you play sports?').toLowerCase();
 var myAnswerTwo = 'yes';
 
 if (answerTwo === myAnswerTwo) {
-  alert('Awesome!');
+  alert('Awesome! My favorite sport is baseball.');
 } else {
   alert(':(');
 }
@@ -30,35 +30,35 @@ var myAnswerThree = 'yes';
 if (answerThree === myAnswerOne) {
   alert('Same here and I am loving it.');
 } else {
-  alert('You gonna learn today!');
+  alert('You are gonna learn today!');
 }
 
-var answerFour = prompt('Do you know how to build a car?').toLowerCase();
-var myAnswerFour = 'no';
+var answerFour = prompt('Do you play video games?').toLowerCase();
+var myAnswerFour = 'yes';
 
 if (answerFour === myAnswerFour) {
-  alert('Me too I\'d love to learn though!');
+  alert('I can play video games all day!');
 } else {
-  alert('Teach me, Master!');
+  alert('It\'s a great way to pass the time!');
 }
 
-var answerFive = prompt('Do you know how to fly a plane?');
-var myAnswerFive = ['N', 'No'];
+var answerFive = prompt('Do you like to travel?').toLowerCase();
+var myAnswerFive = ['yes'];
 
-// checks to see if user answer matches the above variables.
+// checks to see if user answer matches above
 // an appropriate alert will run based on answer.
 
-if ((answerFive === myAnswerFive) && (answerFive !== myAnswerFive)) {
-  alert('That\'s too bad. Would\'ve been pretty cool');
+if ((answerFive === myAnswerFive) || (myAnswerFive !== answerFive)) {
+  alert('Awesome! I\'ve been to at least 3 countries.');
 } else {
-  alert('Gas up my jet!');
+  alert('Get out there and see the world!');
 }
 
-var answerSix = prompt('Are you sleepy yet? Yes, No, Maybe.');
-var myAnswerSix = [ 'Yes', 'No', 'Maybe' ];
+var answerSix = prompt('Let\'s make this a little harder. I have a ton of favorite movies. What is my favorite one?');
+var myAnswerSix = [ 'The Lord of the Rings Trilogy', 'Star Wars trilogy', 'Guardians of the Galaxy' ];
 
-if (answerSix === myAnswerSix.indexOf(0)) {
-  alert('ZZZZZZ');
+if (answerSix === myAnswerSix.indexOf(-1)) {
+  alert('I think I need to add that to my watchlist!');
 } else {
-  alert('You should sleep anyway.')
+  alert('You got it!')
 }

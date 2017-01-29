@@ -7,13 +7,20 @@ Selector {
 
   /* By Element name */
   main {
-    color: red;
+    color: white;
     font-family: verdana;
     font-size: 16px;
     font-style: normal;
+    background: black;
+    padding: 5px;
+
   }
 
   h1 {
-    color: blue;
+    color: white;
+    padding-top: 2px;
+    padding-right: 3px;
+    padding-bottom: 2px;
+    padding-left: 3px;
 
   }
