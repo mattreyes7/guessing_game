@@ -64,5 +64,20 @@ if (answerSix === myAnswerSix.indexOf(-1)) {
 }
 // As a developer, I want to add a seventh question to my guessing game that takes numeric input, and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
 
-var answerSeven = prompt('What\'s my favorite number?');
 var myAnswerSeven = 7;
+var counter = 1;
+
+while (counter < 5) {
+  counter++;
+  var answerSeven = parseInt(prompt('What\'s my favorite number?'));
+if (counter ===5) {
+  alert('Let\s move on');
+} else if (answerSeven === myAnswerSeven) {
+  alert('Good guess!');
+  break;
+} else if (answerSeven < myAnswerSeven) {
+  alert('A little higher!');
+} else if (answerSeven > myAnswerSeven) {
+  alert ('A little lower!');
+}
+}
