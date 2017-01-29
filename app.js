@@ -103,7 +103,7 @@ var counter = 1;
 while (counter < 5) {
   counter++;
   var answerSeven = parseInt(prompt('What\'s my favorite number?'));
-if (counter ===5) {
+if (counter === 5) {
   alert('Let\s move on');
 } else if (answerSeven === myAnswerSeven) {
   alert('Good guess!');
@@ -113,4 +113,18 @@ if (counter ===5) {
 } else if (answerSeven > myAnswerSeven) {
   alert ('A little lower!');
 }
+}
+// As a developer, I want to add a question to my guessing game that accepts multiple possible correct answers that are stored in an array, for instance, "Can you guess a state that I have lived in besides Washington?", so that even more of my programming skills are showcased. For now, I will structure this question so that the user has six tries to get a single correct answer, and upon exhausting those tries OR getting a correct answer, displays a message to the user indicating all of the possible correct answers.
+
+var myAnswerEight = ['baseball', 'basketball', 'table tennis', 'golf'];
+
+while (counter < 7) {
+  counter++;
+  var answerEight = prompt('What is my favorite sport?');
+if (counter === 7) {
+    alert('I like baseball, basketball, table tennis, and golf!');
+  } else if (answerEight === myAnswerEight[0] || answerEight === myAnswerEight[1] || answerEight === myAnswerEight[2] || answerEight === myAnswerEight[3]) {
+    alert('That is correct!');
+    break;
+  }
 }
