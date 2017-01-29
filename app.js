@@ -65,7 +65,7 @@
 // // As a developer, I want to add a seventh question to my guessing game that takes numeric input, and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
 // //
 
-// this while loop counts the number of guesses up to 4 moves onto the next question when tries expire and stops when the user guesses correctly. 
+// this while loop counts the number of guesses up to 4 moves onto the next question when tries expire and stops when the user guesses correctly.
 
 var myAnswerSeven = 7;
 var counter = 1;
@@ -84,7 +84,6 @@ if (counter ===5) {
   alert ('A little lower!');
 }
 }
-<<<<<<< HEAD
 
 var answerSix = prompt('Let\'s make this a little harder. I have a ton of favorite movies. What is my favorite one?');
 var myAnswerSix = [ 'The Lord of the Rings Trilogy', 'Star Wars trilogy', 'Guardians of the Galaxy' ];
@@ -95,5 +94,3 @@ if (answerSix === myAnswerSix.indexOf(-1)) {
   alert('You got it!')
 }
 // As a developer, I want to add a seventh question to my guessing game that takes numeric input, and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
-=======
->>>>>>> 526643431aa2ca906020ae7449004b6813241ca9
