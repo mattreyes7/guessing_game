@@ -63,39 +63,7 @@ if (answerSix === myAnswerSix.indexOf(-1)) {
   alert('You got it!')
 }
 // As a developer, I want to add a seventh question to my guessing game that takes numeric input, and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
-//
-
-// this while loop counts the number of guesses up to 4 moves onto the next question when tries expire and stops when the user guesses correctly.
-
-var myAnswerSeven = 7;
-var counter = 1;
-
-while (counter < 5) {
-  counter++;
-  var answerSeven = parseInt(prompt('What\'s my favorite number?'));
-if (counter ===5) {
-  alert('Let\s move on');
-} else if (answerSeven === myAnswerSeven) {
-  alert('Good guess!');
-  break;
-} else if (answerSeven < myAnswerSeven) {
-  alert('A little higher!');
-} else if (answerSeven > myAnswerSeven) {
-  alert ('A little lower!');
-}
-}
-
-var answerSix = prompt('Let\'s make this a little harder. I have a ton of favorite movies. What is my favorite one?');
-var myAnswerSix = [ 'The Lord of the Rings Trilogy', 'Star Wars trilogy', 'Guardians of the Galaxy' ];
-
-if (answerSix === myAnswerSix.indexOf(-1)) {
-  alert('I think I need to add that to my watchlist!');
-} else {
-  alert('You got it!')
-}
-// As a developer, I want to add a seventh question to my guessing game that takes numeric input, and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
-
-// code on lines 99-113 runs a while loop that counts user input on prompt for up to 4 times. when user guesses the correct answer the loop stops. the loops stops stop after 4 tries.
+// code runs a while loop that counts user input on prompt for up to 4 times. when user guesses the correct answer the loop stops. the loops stops stop after 4 tries.
 
 var myAnswerSeven = 7;
 var counter = 1;
@@ -128,3 +96,5 @@ if (counter === 7) {
     break;
   }
 }
+
+alert('Thanks for playing' +' '+ userName);

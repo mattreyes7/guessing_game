@@ -24,3 +24,7 @@ Selector {
     padding-left: 3px;
 
   }
+
+  ol {
+    font-family: verdana;
+  }
