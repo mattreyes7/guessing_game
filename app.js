@@ -1,14 +1,19 @@
+function greeting {
 var userName = prompt('What\'s your name?').toLowerCase();
 // ask user name
 alert('Hello'+' '+ userName + '. Thanks for coming to my site! First, you need to answer a short survey.');
 // this is the question counter
 var questionCounter = 0;
+}
+
+greeting();
 
 // We want to ask the user a question
 // Take their answer as input stored in a variable
 // Validate that their answer matches my answer
 // depending on True or False, provide feedback
 
+function questionOne() {
 var answerOne = prompt('Are you ready to begin? yes or no.').toLowerCase();
 var myAnswerOne = 'yes';
 
@@ -17,6 +22,9 @@ if (answerOne === myAnswerOne) {
 } else {
   alert('Sorry, I\'m starting anyway. LOL.');
 }
+}
+
+questionOne();
 
 var answerTwo = prompt('Do you play sports?').toLowerCase();
 var myAnswerTwo = 'yes';
@@ -104,4 +112,4 @@ if (counterEight === 7) {
   }
 }
 
-alert('Thanks for playing' +' '+ userName + '. You got '+ questionCounter + ' correct answers!');
+alert('Thanks for playing' +' '+ userName + '. You got '+ questionCounter + ' correct answers out of 3!');
