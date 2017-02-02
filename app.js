@@ -1,11 +1,11 @@
 
-  var questionCounter = 0;
+var questionCounter = 0;
 
-  var userName = prompt('What\'s your name?').toLowerCase();
-  // game prompts user name
-  alert('Hello'+' '+ userName + '. Thanks for coming to my site! First, you need to answer a short survey.');
-  // this is the question counter below.
-  console.log(userName);
+var userName = prompt('What\'s your name?').toLowerCase();
+// game prompts user name
+alert('Hello'+' '+ userName + '. Thanks for coming to my site! First, you need to answer a short survey.');
+// this is the question counter below.
+console.log(userName);
 
 
 function questionOne() {
