@@ -1,13 +1,12 @@
-function greeting() {
+
+  var questionCounter = 0;
+
   var userName = prompt('What\'s your name?').toLowerCase();
   // game prompts user name
   alert('Hello'+' '+ userName + '. Thanks for coming to my site! First, you need to answer a short survey.');
   // this is the question counter below.
-  var questionCounter = 0;
   console.log(userName);
-}
-// call function greeting.
-greeting();
+
 
 function questionOne() {
   var answerOne = prompt('Are you ready to begin? yes or no.').toLowerCase();
@@ -41,7 +40,7 @@ function questionThree() {
   var answerThree = prompt('Do you know how to code?').toLowerCase();
   var myAnswerThree = 'yes';
 
-  if (answerThree === myAnswerOne) {
+  if (answerThree === myAnswerThree) {
     alert('Same here and I am loving it.');
   } else {
     alert('You are gonna learn today!');
@@ -137,5 +136,4 @@ function questionEight() {
 }
 
 questionEight();
-
 alert('Thanks for playing' +' '+ userName + '. You got '+ questionCounter + ' correct answers out of 3!');
