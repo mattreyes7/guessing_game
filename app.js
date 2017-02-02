@@ -79,8 +79,8 @@ function questionFive() {
 questionFive();
 
 function questionSix() {
-  var answerSix = prompt('Let\'s make this a little harder. I have a ton of favorite movies. What is my favorite one?');
-  var myAnswerSix = [ 'The Lord of the Rings Trilogy', 'Star Wars trilogy', 'Guardians of the Galaxy' ];
+  var answerSix = prompt('Let\'s make this a little harder. I have a ton of favorite movies. Name at least one');
+  var myAnswerSix = [ 'Mad Max', 'Inception', 'Guardians of the Galaxy' ];
 
   if (myAnswerSix.indexOf(answerSix) > -1) {
     alert('You got it!');
