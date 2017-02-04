@@ -8,6 +8,14 @@ p {
   vertical-align: middle;
 }
 
+#logo {
+  width: 60%;
+  height: 60%;
+  float: right;
+  margin-left: -50%;
+  position: static;
+}
+
 h1 {
   font-size: 26px;
   font-family: Helvetica;

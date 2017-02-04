@@ -1,4 +1,3 @@
-
 var questionCounter = 0;
 
 var userName = prompt('What\'s your name?').toLowerCase();
